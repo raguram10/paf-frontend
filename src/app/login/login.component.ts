@@ -6,13 +6,12 @@ import { Validators } from '@angular/forms';
 import { FormGroup } from '@angular/forms';
 
 
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
 })
-export class AppComponent {
+export class LoginComponent {
   myForm: FormGroup = new FormGroup({
     name: new FormControl('', [
       Validators.required,

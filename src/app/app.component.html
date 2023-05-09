@@ -1,10 +1,1 @@
-<div class="login">
-  <div class="form">
-    <p>welcome</p>
-    <form class="login-form"(ngSubmit)="onSubmit()">
-      <input type="text"  [(ngModel)]="username"  placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"required [ngModelOptions]="{standalone: true}"/>
-      <input type="password" [(ngModel)]="password" placeholder="password"  required [ngModelOptions]="{standalone: true}"/>
-      <button>login</button>
-    </form>
-  </div>
-</div>
+<router-outlet></router-outlet>
